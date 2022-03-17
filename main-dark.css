@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+header {
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px; } }
+  header .title h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white; }
+    @media (max-width: 767px) {
+      header .title h1 {
+        font-size: 23px; } }
+  header .title p {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8b97c6; }
+  header .toggle-theme {
+    display: flex; }
+    @media (max-width: 767px) {
+      header .toggle-theme {
+        justify-content: space-between;
+        border-top: 1px solid #63687e;
+        margin-top: 10px;
+        padding-top: 10px; } }
+    header .toggle-theme p {
+      text-transform: capitalize;
+      font-size: 13px;
+      font-weight: 400;
+      color: #8b97c6; }
+    header .toggle-theme .bolls-parent {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 10px;
+      width: 40px;
+      height: 20px;
+      border-radius: 20px;
+      background: linear-gradient(#378fe6, #3eda82); }
+      header .toggle-theme .bolls-parent .boll {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        cursor: pointer; }
+        header .toggle-theme .bolls-parent .boll.dark {
+          background-color: #1e202a; }
+        header .toggle-theme .bolls-parent .boll.light {
+          background-color: #f5f7ff;
+          opacity: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 14px;
+  height: 100%;
+  font-family: "Inter", sans-serif; }
+
+.main-page {
+  background-color: #1e202a;
+  padding-bottom: 50px; }
+  @media (max-width: 767px) {
+    .main-page {
+      padding-bottom: 20px; } }
+  .main-page .top-bg {
+    width: 100%;
+    height: 200px;
+    background-color: #1f212e; }
+  @media (max-width: 767px) {
+    .main-page .container {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: -180px;
+      padding-left: 10px;
+      padding-right: 10px; } }
+  @media (min-width: 768px) {
+    .main-page .container {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: -160px; } }
+  @media (min-width: 1222px) {
+    .main-page .container {
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-top: -160px; } }
+  @media (max-width: 767px) {
+    .main-page .container .social-media {
+      margin-bottom: 20px; } }
+  @media (min-width: 768px) {
+    .main-page .container .social-media {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px; } }
+  .main-page .container .social-media div .acount {
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #252a41;
+    width: 200px;
+    border-radius: 4px; }
+    @media (max-width: 767px) {
+      .main-page .container .social-media div .acount {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-bottom: 15px; } }
+    @media (min-width: 768px) and (max-width: 1221px) {
+      .main-page .container .social-media div .acount {
+        width: 160px; } }
+    @media (min-width: 1222px) {
+      .main-page .container .social-media div .acount {
+        width: 200px; } }
+    .main-page .container .social-media div .acount:hover {
+      background-color: #374062; }
+    .main-page .container .social-media div .acount .name {
+      display: flex;
+      justify-content: center;
+      color: #aeb3cb; }
+      .main-page .container .social-media div .acount .name img {
+        margin-right: 10px; }
+    .main-page .container .social-media div .acount .num-followers {
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px; }
+    .main-page .container .social-media div .acount .followers {
+      font-size: 15px;
+      font-weight: 400;
+      color: #aeb3cb;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px; }
+    .main-page .container .social-media div .acount .percent img {
+      vertical-align: middle;
+      margin-right: 5px; }
+    .main-page .container .social-media div .acount .percent span {
+      font-size: 12px;
+      font-weight: 400;
+      color: #1db489; }
+      .main-page .container .social-media div .acount .percent span.red {
+        color: #dc414c; }
+  .main-page .container .social-media div.facebook {
+    background-color: #198ff5;
+    padding-top: 2px;
+    border-radius: 5px; }
+  .main-page .container .social-media div.twitter {
+    background-color: #1ca0f2;
+    padding-top: 2px;
+    border-radius: 5px; }
+  .main-page .container .social-media div.insta {
+    background: linear-gradient(to right, #fdc468, #df4996);
+    padding-top: 2px;
+    border-radius: 5px; }
+  .main-page .container .social-media div.youtube {
+    background-color: #c4032a;
+    padding-top: 2px;
+    border-radius: 5px; }
+  .main-page .container .overview h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    .main-page .container .overview .content {
+      margin-bottom: 20px; } }
+  @media (min-width: 768px) {
+    .main-page .container .overview .content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px; } }
+  .main-page .container .overview .content .analysis {
+    background-color: #252a41;
+    padding: 15px;
+    border-radius: 6px; }
+    @media (max-width: 767px) {
+      .main-page .container .overview .content .analysis {
+        margin-bottom: 15px; } }
+    @media (min-width: 768px) and (max-width: 1221px) {
+      .main-page .container .overview .content .analysis {
+        width: 160px; } }
+    @media (min-width: 1222px) {
+      .main-page .container .overview .content .analysis {
+        width: 200px; } }
+    .main-page .container .overview .content .analysis:hover {
+      background-color: #374062; }
+    .main-page .container .overview .content .analysis .views {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px; }
+      .main-page .container .overview .content .analysis .views p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #aeb3cb; }
+    .main-page .container .overview .content .analysis .right {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      align-items: flex-end; }
+      .main-page .container .overview .content .analysis .right p {
+        font-size: 13px;
+        font-weight: 400;
+        color: #1db489; }
+        .main-page .container .overview .content .analysis .right p.num-of-views {
+          font-size: 26px;
+          font-weight: 700;
+          color: white; }
+        .main-page .container .overview .content .analysis .right p.red {
+          color: #dc414c; }
+      .main-page .container .overview .content .analysis .right img {
+        margin-right: 4px; }
+
+footer {
+  font-size: 11px;
+  text-align: center; }
+  footer a {
+    color: #3e52a3; }
+
+/*# sourceMappingURL=main-dark.css.map */
